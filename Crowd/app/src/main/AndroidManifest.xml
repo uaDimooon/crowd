@@ -22,5 +22,19 @@
 				<category android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
 		</activity>
+
+		<meta-data
+			android:name="AA_DB_NAME"
+			android:value="xxdx_crowd" />
+		<meta-data
+			android:name="AA_DB_VERSION"
+			android:value="1" />
+		<meta-data
+			android:name="AA_MODELS"
+			android:value="
+			com.ua.dimooon.crowd.data.User,
+			com.ua.dimooon.crowd.data.Game,
+			com.ua.dimooon.crowd.data.Event,
+			com.ua.dimooon.crowd.data.Court" />
 	</application>
 </manifest>
